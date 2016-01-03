@@ -1,0 +1,42 @@
+user:
+	
+	user_id: integer
+	first_name: string
+	last_name: string
+	email: string
+	favorites_list: text
+	recently_played: text
+
+song:
+
+	artist_name: string
+	album_name: string
+	song_id: string
+	review: text
+	genre: string
+	song_length: string
+	date_released: string
+	image_url: text
+
+
+
+account type:
+
+	is_premium: boolean
+
+payment
+
+	account_type: string
+	card_number: string
+	payment_due: datetime
+
+
+
+
+
+
+
+
+
+
+
